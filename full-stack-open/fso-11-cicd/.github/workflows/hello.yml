@@ -1,0 +1,17 @@
+name: Hello world
+
+on:
+  push: 
+    branches:
+      - master
+
+jobs:
+  hello_world_job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Say hello
+        run: echo 'Hello world!'
+      - name: Get current time
+        run: date
+      - name: Print directory content
+        run: ls -l

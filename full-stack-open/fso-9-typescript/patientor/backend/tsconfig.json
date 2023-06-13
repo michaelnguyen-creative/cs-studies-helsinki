@@ -1,0 +1,16 @@
+{
+  "include": ["src/**/*", "data/*"],
+  "exclude": ["build", "node_modules"],
+  "compilerOptions": {
+    "outDir": "build",
+    "target": "ES6",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "noImplicitAny": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "noUnusedParameters": true,
+    "noUnusedLocals": true,
+    "strict": true
+  }
+}

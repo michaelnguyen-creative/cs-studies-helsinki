@@ -1,0 +1,53 @@
+{
+  "name": "full-stack-open-phonebook",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start-server": "nodemon index.js",
+    "start-client": "webpack serve",
+    "build-dev": "webpack",
+    "build": "webpack --env production",
+    "start-prod": "NODE_ENV=production node index.js",
+    "lint": "eslint .",
+    "test:e2e": "cypress run"
+  },
+  "author": "Michael Nguyen",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.1.3",
+    "cors": "^2.8.5",
+    "cypress": "^12.12.0",
+    "express": "^4.18.2",
+    "mongoose": "^7.0.3",
+    "morgan": "^1.10.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "webpack": "^5.78.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.21.4",
+    "@babel/preset-env": "^7.21.4",
+    "@babel/preset-react": "^7.18.6",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^14.0.0",
+    "@testing-library/user-event": "^14.4.3",
+    "babel-loader": "^9.1.2",
+    "css-loader": "^6.7.3",
+    "dotenv": "^16.0.3",
+    "eslint": "^8.28.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-cypress": "^2.13.2",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-jsx-a11y": "^6.6.1",
+    "eslint-plugin-react": "^7.31.11",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "html-webpack-plugin": "^5.5.0",
+    "nodemon": "^2.0.20",
+    "style-loader": "^3.3.2",
+    "wait-on": "^7.0.1",
+    "webpack-cli": "^5.0.1",
+    "webpack-dev-server": "^4.13.2"
+  }
+}

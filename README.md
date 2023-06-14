@@ -14,7 +14,7 @@ This repository contains programming exercises & projects for these courses:
 - fso-12: [Containerization with Docker](https://fullstackopen.com/en/part12)
 - fso-13: [Relational databases](https://fullstackopen.com/en/part13)
 
->*`fso-final-apps`: Contains more polished & deployed versions of the apps developed in the course.*
+>*`fso-final-apps`: Provides links to other repositories with production versions of the apps developed in the course.*
 
 ## DevOps with Docker
 - devops-docker-1: [Introduction to Docker](https://devopswithdocker.com/part1/)

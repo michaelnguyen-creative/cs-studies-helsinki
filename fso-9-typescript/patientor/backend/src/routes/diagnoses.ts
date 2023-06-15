@@ -1,10 +1,10 @@
-import express from "express";
+import { Router } from "express";
 import diagnoses from "../../data/diagnoses";
 
-const router = express.Router();
+const diagnosesRouter = Router();
 
-router.get("/", (_req, res) => {
+diagnosesRouter.get("/", (_req, res) => {
   res.status(200).json(diagnoses);
 });
 
-export default router;
+export default diagnosesRouter;
